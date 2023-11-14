@@ -1,0 +1,85 @@
+.Auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+    position: relative;
+
+  } 
+  .Auth > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .a-left{
+    gap: .5rem;
+}
+
+.a-left > img {
+  width: 7rem;
+  height: 5.5rem;
+  padding-top: 12px;
+}
+
+.Webname > h1 {
+    margin-block-start:0px;
+    margin-block-end: 0px;
+    font-size: 3rem;
+    background-color: red;
+    background-image: var(--buttonBg);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+}
+.Webname>h5{
+    font-size: 0.85rem;
+    padding-left: 10px;
+    margin-block-start:1px;
+    margin-block-end: 0px;
+}
+.Webname{
+    padding: 0px;
+    margin-left: -15px;
+}
+.infoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .infoInput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    flex:1;
+  }
+  .infoForm>div{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 90%;
+  }
+  .infoButton{
+    width: 6rem;
+    height: 2rem;
+    align-self: flex-end;
+  }
+  .authForm{
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.authForm>div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
